@@ -5,7 +5,7 @@ try:
     print("Azure Blob Storage v" + __version__ + " - Python quickstart sample")
 
     # Quick start code goes here
-    connect_str = "DefaultEndpointsProtocol=https;AccountName=storageborleanovidiu;AccountKey=LJOfwMFNBhUc949vVfM2k/utJIyS/E8tHaN+F5ro/9xzM3fnKrRUs53TCzbmY7S52DDz3HcEvh4BHu8H/Nuacw==;EndpointSuffix=core.windows.net"
+    connect_str = ""
     # Create the BlobServiceClient object which will be used to create a container client
     blob_service_client = BlobServiceClient.from_connection_string(connect_str)
 
