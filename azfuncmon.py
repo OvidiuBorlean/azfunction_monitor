@@ -16,9 +16,9 @@ if memory_consumption > treshold:
    print("Memory Usage Alert. Sending data to Storage")
    output = sp. getoutput('ps aux')
    data={}
-   data['date'] = "OvidiuBlabla"
-   data['host'] = "myhost"
+   data['date'] = ""
+   data['host'] = ""
    data['message'] = output
-   params = {'code': 'ze7CDK1Qk_PHQFEBaM6bdgMknhM7vPnMYtwqywVyjqI3AzFuW0XxMQ=='}
-   response = requests.post('https://ovidiuborlean.azurewebsites.net/api/HttpTrigger1', params=params, json=data)
+   params = {'code': ''}
+   response = requests.post('', params=params, json=data)
    print(response.content)
